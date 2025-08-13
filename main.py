@@ -165,7 +165,7 @@ def main():
                         print(f"{Fore.GREEN}Boost {used+1} sent!{Style.RESET_ALL}")
                         used += 1
                     else:
-                        wait_time(300)
+                        wait_time(20)
                 elif type(response) == int:
                     wait_time(response)
         elif choice == "2":
